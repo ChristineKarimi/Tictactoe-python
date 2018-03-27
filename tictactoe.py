@@ -1,4 +1,5 @@
 #The tic tac toe board
+import random
 
 board  =  [0,1,2,
             3,4,5,
@@ -22,4 +23,14 @@ while True:
 
         input = raw_input('select a spot:')
         input = int(input)
+
+if board[input] != 'x' and board[input] = !'o':
+     board[input] = 'x'
+
+     random.seed()  #gives a random generator
+     opponent = random.randint = (0,8)
+
+            else:
+                print 'This spot is taken'
+                show()
     
